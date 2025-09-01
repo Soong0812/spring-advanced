@@ -56,6 +56,6 @@ Lv.4
 
    예외타입을 ServerException에서 InvalidRequestException로 수정
 
-5) Test에서 todo.getUser()가 null로 설정되어 NullPointerException이 발생했는데 전체적인 코드에서는 InvalidRequestException을 기대하고 있습니다.
+5) Test에서 todo.getUser()가 null로 설정되어 NullPointerException이 발생했는데 전체적인 코드에서는 InvalidRequestException을 기대중
 
-   Service에 todo.getUser()가 null인 명확한 조건을 추가합니다.
+   Service에 todo.getUser()가 null인 명확한 조건을 추가
